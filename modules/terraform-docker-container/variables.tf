@@ -9,6 +9,11 @@ variable "image_name" {
 }
 
 variable "internal_port" {
-  type        = map
+  type        = number
   description = "Internal Port"
+}
+
+variable "external_port" {
+  type        = number
+  description = "External Port"
 }

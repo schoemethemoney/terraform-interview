@@ -4,5 +4,5 @@ variable "docker_containers" {
     image_name     = string
     internal_port  = number
     external_port  = number
-  })
+  }))
 }
